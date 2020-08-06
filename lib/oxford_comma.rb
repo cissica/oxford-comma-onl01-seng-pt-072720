@@ -3,5 +3,9 @@ def oxford_comma(array)
   string = ""
   string << array.join
   return string
+elsif array.size == 2
+  string2 = ""
+  string2 << array.join("and")
+  return string2
   end
 end
