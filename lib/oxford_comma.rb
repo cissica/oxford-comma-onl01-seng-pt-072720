@@ -9,7 +9,7 @@ elsif array.size == 2
   return string2
 elsif array.size == 3
   string3 = ""
-  string3 << array.join(" , , and ")
+  string3 << array.index(0...2).join(" , ") 
   return string3
   end
 end
