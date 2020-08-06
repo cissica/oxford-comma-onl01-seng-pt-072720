@@ -1,5 +1,5 @@
 def oxford_comma(array)
   string = ""
-  string << array.join 
+  string << array.join
   return string
 end
