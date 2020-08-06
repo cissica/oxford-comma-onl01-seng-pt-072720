@@ -9,7 +9,7 @@ elsif array.size == 2
   return string2
 elsif array.size == 3
   array.insert(-2, "and")
-  array.join(", ")
- 
+  array.join(0...1, ", ")
+
   end
 end
