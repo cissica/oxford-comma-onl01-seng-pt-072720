@@ -9,8 +9,8 @@ elsif array.size == 2
   return string2
 elsif array.size == 3
  string3 = ""
- string3 << array.insert(-1, "and")
- string3 << array.join(", ")
+  array.insert(-2, "and")
+  array.join(", ")
  return string3
   end
 end
