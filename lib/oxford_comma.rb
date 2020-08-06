@@ -10,6 +10,6 @@ elsif array.size == 2
 elsif array.size == 3
   string3 = ""
   string3 << " , , and "
-
+  return string3
   end
 end
