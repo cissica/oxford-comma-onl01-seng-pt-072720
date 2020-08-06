@@ -8,7 +8,7 @@ elsif array.size == 2
   string2 << array.join(" and ")
   return string2
 elsif array.size == 3
-  array.insert(-2, "and")
+  array[-1] = "and" + array[-1]
   array.join( ", ")
 
   end
