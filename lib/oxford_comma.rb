@@ -10,6 +10,6 @@ elsif array.size == 2
 elsif array.size == 3
   array.insert(-2, "and")
   array.join(", ")
- return string3
+ 
   end
 end
